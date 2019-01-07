@@ -1,0 +1,34 @@
+{
+  "name": "angular-builders",
+  "builders": "builders.json",
+  "version": "0.0.0",
+  "description": "Customized Builders for Angular",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queeryme/angular-builders.git"
+  },
+  "author": "Rodney Pantonial <rodney.pantonial@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/queeryme/angular-builders/issues"
+  },
+  "homepage": "https://github.com/queeryme/angular-builders#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular-devkit/architect": "^0.11.4",
+    "@angular-devkit/core": "^7.1.4",
+    "@types/dotenv": "^6.1.0",
+    "@types/node": "^10.12.18",
+    "dotenv": "^6.2.0",
+    "rxjs": "^6.3.3",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "js"
+  ]
+}
