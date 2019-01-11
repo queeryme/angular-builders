@@ -1,0 +1,10 @@
+{
+  "$schema": "@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "builder-name": {
+      "class": "./env/env.builder.js",
+      "schema": "./env/env.schema.json",
+      "description": "Builds the necessary environments based on a .env file or from the actual environment."
+    }
+  }
+}
