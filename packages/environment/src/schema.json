@@ -1,0 +1,32 @@
+{
+    "id": "EnvironmentBuilderSchema",
+    "title": "Environment builder",
+    "description": "Environment builder options",
+    "properties": {
+        "model": {
+            "type": "string",
+            "description": "This is the name of the model to use as the type of the environment generated.",
+            "default": "any"
+        },
+        "modelPath": {
+            "type": "string",
+            "description": "This is the path of the model used",
+            "default": "./model"
+        },
+        "filename": {
+            "type": "string",
+            "description": "This is the filename of the generated environment",
+            "default": "environment.ts"
+        },
+        "path": {
+            "type": "string",
+            "description": "This is the path for the environment.ts file",
+            "default": "./src/environments/"
+        },
+        "build": {
+            "type": "string",
+            "description": "This is the path of the actual builder",
+            "default": "./src/environments/tester"
+        }
+    }
+}

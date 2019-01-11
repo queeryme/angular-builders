@@ -3,4 +3,5 @@ export interface EnvironmentBuilderSchema {
     modelPath: string;
     filename: string;
     path: string;
+    build: string;
 }
