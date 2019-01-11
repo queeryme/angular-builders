@@ -1,5 +1,5 @@
 {
-    "name": "angular-builders",
+    "name": "flatxph",
     "description": "Customized Builders for Angular",
     "repository": {
         "type": "git",
@@ -33,5 +33,6 @@
         "angular",
         "javascript",
         "typescript"
-    ]
+    ],
+    "version": "0.0.0"
 }
