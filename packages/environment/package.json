@@ -1,17 +1,15 @@
 {
   "name": "@flatxph/environment",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Evgeny Barabanov",
   "builders": "builders.json",
   "scripts": {
     "build": "../../node_modules/.bin/tsc"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "@angular-devkit/build-angular": ">=0.12.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
