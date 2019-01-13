@@ -24,7 +24,6 @@
         "ts-node": "^7.0.1",
         "typescript": "3.2.2"
     },
-    "dependencies": {},
     "bugs": {
         "url": "https://github.com/queeryme/angular-builders/issues"
     },
