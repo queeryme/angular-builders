@@ -1,8 +1,8 @@
 {
     "name": "@flatxph/environment",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
-    "author": "Evgeny Barabanov",
+    "author": "Rodney Pantonial",
     "builders": "builders.json",
     "scripts": {
         "build": "../../node_modules/.bin/tsc"
@@ -11,8 +11,6 @@
     },
     "peerDependencies": {
         "@angular-devkit/build-angular": ">=0.12.1"
-    },
-    "dependencies": {
     },
     "repository": {
         "type": "git",
