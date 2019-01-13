@@ -1,17 +1,21 @@
 {
-  "name": "@flatxph/environment",
-  "version": "0.0.0",
-  "license": "MIT",
-  "author": "Evgeny Barabanov",
-  "builders": "builders.json",
-  "scripts": {
-    "build": "../../node_modules/.bin/tsc"
-  },
-  "devDependencies": {
-  },
-  "peerDependencies": {
-    "@angular-devkit/build-angular": ">=0.12.1"
-  },
-  "dependencies": {
-  }
+    "name": "@flatxph/environment",
+    "version": "0.0.2",
+    "license": "MIT",
+    "author": "Evgeny Barabanov",
+    "builders": "builders.json",
+    "scripts": {
+        "build": "../../node_modules/.bin/tsc"
+    },
+    "devDependencies": {
+    },
+    "peerDependencies": {
+        "@angular-devkit/build-angular": ">=0.12.1"
+    },
+    "dependencies": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/queeryme/angular-builders.git"
+    }
 }
