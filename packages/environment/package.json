@@ -1,13 +1,12 @@
 {
     "name": "@flatxph/environment",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "license": "MIT",
     "author": "Rodney Pantonial",
     "builders": "builders.json",
     "scripts": {
-        "build": "../../node_modules/.bin/tsc"
-    },
-    "devDependencies": {
+        "build": "../../node_modules/.bin/tsc",
+        "prepare": "yarn run build"
     },
     "peerDependencies": {
         "@angular-devkit/build-angular": ">=0.12.1"
