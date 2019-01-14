@@ -8,7 +8,7 @@
 **/*.ts
 **/*.js.map
 !typings/*
-!timestamp.builder.js
+!environment.builder.js
 
 example
 
